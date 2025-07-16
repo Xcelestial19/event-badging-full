@@ -1,0 +1,74 @@
+{
+  "card": {
+    "width": 340,
+    "height": 472,
+    "unit": "px",
+    "background": "#ffffff",
+    "border": false
+  },
+  "fields": {
+    "name": {
+      "enabled": true,
+      "x": 83,
+      "y": 250,
+      "fontSize": 20,
+      "bold": false
+    },
+    "email": {
+      "enabled": false,
+      "x": 20,
+      "y": 55,
+      "fontSize": 14,
+      "bold": false
+    },
+    "company": {
+      "enabled": true,
+      "x": 118,
+      "y": 295,
+      "fontSize": 20,
+      "bold": false
+    },
+    "mobile": {
+      "enabled": false,
+      "x": 20,
+      "y": 95,
+      "fontSize": 14,
+      "bold": false
+    },
+    "designation": {
+      "enabled": true,
+      "x": 123,
+      "y": 275,
+      "fontSize": 14,
+      "bold": false
+    },
+    "role": {
+      "enabled": false,
+      "x": 20,
+      "y": 135,
+      "fontSize": 14,
+      "bold": false
+    },
+    "id": {
+      "enabled": false,
+      "x": 20,
+      "y": 155,
+      "fontSize": 12,
+      "bold": false
+    },
+    "barcode": {
+      "enabled": true,
+      "x": 65,
+      "y": 320,
+      "width": 200,
+      "height": 50,
+      "scale": 1
+    },
+    "qrcode": {
+      "enabled": false,
+      "x": 220,
+      "y": 120,
+      "size": 80
+    }
+  }
+}

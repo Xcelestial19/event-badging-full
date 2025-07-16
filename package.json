@@ -1,0 +1,20 @@
+{
+  "name": "event-badging-full",
+  "version": "1.0.0",
+  "description": "Event badging prototype with barcode, CSV import/export, roles, print designer, camera scan.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "sqlite3": "^5.1.7",
+    "multer": "^1.4.5-lts.1",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "bwip-js": "^4.5.2",
+    "uuid": "^9.0.1",
+    "body-parser": "^1.20.3"
+  }
+}
