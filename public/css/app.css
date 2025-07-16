@@ -1,0 +1,5 @@
+/* Custom overrides layered on Tailwind */
+.table-actions{display:flex;gap:0.25rem;align-items:center;justify-content:center}
+.badge-field{position:absolute;white-space:nowrap}
+form.inline{display:inline;margin:0;padding:0}
+@media print{.no-print{display:none!important}}

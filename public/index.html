@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Event Registration</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="/css/app.css" />
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-md mx-auto bg-white p-6 rounded shadow">
+    <h1 class="text-2xl font-bold mb-4 text-center">Register Attendee</h1>
+    <form action="/register" method="POST" class="space-y-3">
+      <input name="name" placeholder="Full Name" required class="w-full border px-3 py-2 rounded" />
+      <input name="email" type="email" placeholder="Email" required class="w-full border px-3 py-2 rounded" />
+      <input name="company" placeholder="Company" required class="w-full border px-3 py-2 rounded" />
+      <input name="mobile" placeholder="Mobile (optional)" class="w-full border px-3 py-2 rounded" />
+      <input name="designation" placeholder="Designation (optional)" class="w-full border px-3 py-2 rounded" />
+      <select name="role" required class="w-full border px-3 py-2 rounded">
+        <option value="Delegate">Delegate</option>
+        <option value="Faculty">Faculty</option>
+        <option value="Organiser">Organiser</option>
+      </select>
+      <button class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Register & Generate Badge</button>
+    </form>
+    <div class="mt-4 text-sm flex justify-between">
+      <a href="/admin" class="text-blue-600">Admin Panel</a>
+      <a href="/camera-scan" class="text-green-600">Camera Scan</a>
+      <a href="/scan" class="text-purple-600">USB Scan</a>
+    </div>
+  </div>
+</body>
+</html>
